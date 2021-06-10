@@ -81,3 +81,20 @@ body
     width: 50%;
     margin-bottom: 20px;
 }
+/* Needs to be more specific with the selector*/
+.img-text-wrapper .subtitle
+{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+.img-text-wrapper:hover .subtitle
+{
+    font-weight: 600;
+    color: lightseagreen;
+}
+.img-darken
+{
+    transition: 1s;
+    filter: brightness(10%);
+}
